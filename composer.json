@@ -1,0 +1,40 @@
+{
+	"name": "markustimtner/mt-newsmod",
+	"type": "typo3-cms-extension",
+	"description": "One-page backend layouts for EXT:news and an event record type for EXT:eventnews.",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"news",
+		"eventnews",
+		"backend layout"
+	],
+	"homepage": "https://github.com/mtness/mt_newsmod",
+	"authors": [
+		{
+			"name": "Markus Timtner",
+			"email": "me@mtness.net",
+			"role": "Machine Whisperer"
+		}
+	],
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"require": {
+		"php": "^8.2",
+		"typo3/cms-core": "^14.3",
+		"typo3/cms-backend": "^14.3",
+		"georgringer/news": "^14",
+		"georgringer/eventnews": "^7"
+	},
+	"autoload": {
+		"psr-4": {
+			"MarkusTimtner\\MtNewsmod\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "mt_newsmod"
+		}
+	}
+}

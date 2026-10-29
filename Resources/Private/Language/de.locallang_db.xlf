@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-10-29" product-name="mt_newsmod">
+		<header/>
+		<body>
+			<trans-unit id="tx_news_domain_model_news.subtitle"><source>Subtitle</source><target>Untertitel</target></trans-unit>
+			<trans-unit id="tx_news_domain_model_news.type.event"><source>Event</source><target>Veranstaltung</target></trans-unit>
+			<trans-unit id="tx_news_domain_model_news.datetime.event"><source>Event start</source><target>Beginn der Veranstaltung</target></trans-unit>
+			<trans-unit id="tx_news_domain_model_news.palettes.eventDates"><source>When</source><target>Wann</target></trans-unit>
+			<trans-unit id="tx_news_domain_model_news.palettes.eventPlace"><source>Where / who</source><target>Wo / wer</target></trans-unit>
+			<trans-unit id="tx_news_domain_model_news.palettes.publish"><source>Publishing</source><target>Veröffentlichung</target></trans-unit>
+			<trans-unit id="tabs.languageAccess"><source>Language &amp; access</source><target>Sprache &amp; Zugriff</target></trans-unit>
+		</body>
+	</file>
+</xliff>
