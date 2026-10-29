@@ -11,6 +11,8 @@ One-page backend layouts for [EXT:news](https://github.com/georgringer/news) wit
 - **Event (type 3):** same tabs, but the event fields sit together below the teaser:
   *When* (start, end, full day), *Where / who* (location, organizer and their simple variants) and *Publishing*.
 - **Subtitle:** new column `tx_news_domain_model_news.subtitle`.
+- Type 3 is mapped to its own Extbase model (`NewsEvent`). Without that mapping Extbase would filter
+  records of type 3 out of every news / event list.
 - The type 1 / 2 (internal / external link) layouts only lose eventnews' event tab and `is_event` switch.
 - The "preview" button of the content elements field is removed.
 - `is_event` is derived from the type on every save (`Hooks/NewsEventTypeHook`), because the

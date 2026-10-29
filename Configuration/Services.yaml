@@ -6,3 +6,4 @@ services:
 
   MarkusTimtner\MtNewsmod\:
     resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
